@@ -25,7 +25,7 @@ public class MaximumDepthOfBinaryTreeTest {
     public void test2() {
         TreeNode node2 = new TreeNode(9);
         TreeNode root = new TreeNode(3, node2, null);
-        
+
         MaximumDepthOfBinaryTree maxDBT = new MaximumDepthOfBinaryTree();
 
         int result = maxDBT.maxDepth(root);
