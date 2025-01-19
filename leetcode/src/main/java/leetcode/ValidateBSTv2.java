@@ -13,7 +13,7 @@ public class ValidateBSTv2 {
             return false;
         }
 
-        return validateBST(node.left,min,(long) node.val)
-                && validateBST(node.right,(long) node.val,max);
+        return validateBST(node.left,min, node.val)
+                && validateBST(node.right, node.val,max);
     }
 }
