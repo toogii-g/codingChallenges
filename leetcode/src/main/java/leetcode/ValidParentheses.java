@@ -2,7 +2,6 @@ package leetcode;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Stack;
 
 public class ValidParentheses {
     public boolean isValid(String s) {
