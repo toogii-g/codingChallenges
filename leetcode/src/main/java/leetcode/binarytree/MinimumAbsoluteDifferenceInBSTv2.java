@@ -1,7 +1,4 @@
-package leetcode;
-
-import java.util.ArrayList;
-import java.util.List;
+package leetcode.binarytree;
 
 public class MinimumAbsoluteDifferenceInBSTv2 {
     int min = Integer.MAX_VALUE;

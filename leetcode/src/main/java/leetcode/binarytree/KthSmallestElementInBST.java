@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.binarytree;
 
 public class KthSmallestElementInBST {
 

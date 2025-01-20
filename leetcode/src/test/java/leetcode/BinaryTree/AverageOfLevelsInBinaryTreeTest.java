@@ -1,5 +1,7 @@
-package leetcode;
+package leetcode.BinaryTree;
 
+import leetcode.binarytree.AverageOfLevelsInBinaryTree;
+import leetcode.binarytree.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

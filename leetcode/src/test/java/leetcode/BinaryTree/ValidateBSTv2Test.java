@@ -1,5 +1,7 @@
-package leetcode;
+package leetcode.BinaryTree;
 
+import leetcode.binarytree.TreeNode;
+import leetcode.binarytree.ValidateBSTv2;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

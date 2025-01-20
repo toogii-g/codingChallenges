@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.binarytree;
 
 public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {

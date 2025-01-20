@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.binarytree;
 
 public class ValidateBST {
     TreeNode prev = null;

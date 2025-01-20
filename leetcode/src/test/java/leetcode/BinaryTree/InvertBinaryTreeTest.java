@@ -1,9 +1,9 @@
-package leetcode;
+package leetcode.BinaryTree;
 
+import leetcode.binarytree.InvertBinaryTree;
+import leetcode.binarytree.SameTree;
+import leetcode.binarytree.TreeNode;
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
