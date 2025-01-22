@@ -7,7 +7,7 @@ public class CountCompleteTreeNodes {
         int rightDepth = countRightMost(root);
 
         if (leftDepth == rightDepth) {
-            return (int) Math.pow(2, leftDepth) - 1;
+            return (1 << leftDepth) - 1;
         }
 
         return 1 + countNodes(root.left) + countNodes(root.right);
