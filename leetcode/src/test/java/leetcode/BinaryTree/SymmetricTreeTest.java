@@ -1,6 +1,5 @@
 package leetcode.BinaryTree;
 
-import leetcode.binarytree.SameTree;
 import leetcode.binarytree.SymmetricTree;
 import leetcode.binarytree.TreeNode;
 import org.junit.jupiter.api.Test;
