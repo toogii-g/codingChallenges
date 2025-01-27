@@ -1,12 +1,13 @@
 package leetcode.BinaryTree;
 
+import leetcode.binarytree.BTFromInorderAndPostorderTraversal;
 import leetcode.binarytree.BTFromPreorderAndInorderTraversal;
 import leetcode.binarytree.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class BTFromPreorderAndInorderTraversalTest {
+public class BTFromInorderAndPostorderTraversalTest {
 
     @Test
     public void test1() {
@@ -17,9 +18,9 @@ public class BTFromPreorderAndInorderTraversalTest {
         TreeNode node2 = new TreeNode(9, null, null);
         TreeNode expectedRoot = new TreeNode(3, node2, node3);
 
-        BTFromPreorderAndInorderTraversal  target = new BTFromPreorderAndInorderTraversal();
+        BTFromInorderAndPostorderTraversal target = new BTFromInorderAndPostorderTraversal();
 
-        TreeNode result = target.buildTree(new int[]{3,9,20,15,7},new int[]{9,3,15,20,7});
+        TreeNode result = target.buildTree(new int[]{9,3,15,20,7},new int[]{9,15,7,20,3});
         assertTrue(expectedRoot.equals(result));
     }
 }
