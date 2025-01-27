@@ -4,7 +4,7 @@ import leetcode.binarytree.BTFromPreorderAndInorderTraversal;
 import leetcode.binarytree.TreeNode;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BTFromPreorderAndInorderTraversalTest {
 
@@ -20,6 +20,6 @@ public class BTFromPreorderAndInorderTraversalTest {
         BTFromPreorderAndInorderTraversal  target = new BTFromPreorderAndInorderTraversal();
 
         TreeNode result = target.buildTree(new int[]{3,9,20,15,7},new int[]{9,3,15,20,7});
-        assertTrue(expectedRoot.equals(result));
+        assertEquals(expectedRoot, result);
     }
 }
