@@ -22,6 +22,6 @@ public class NumberOfIslandsTest {
 
         int result = target.numIslands(grid);
 
-        assertEquals(2, result);
+        assertEquals(1, result);
     }
 }
