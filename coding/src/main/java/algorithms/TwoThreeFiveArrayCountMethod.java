@@ -1,5 +1,9 @@
 package algorithms;
 
+/**
+ *
+ * B: O(n), A: O(n), W: O(n)
+ */
 public class TwoThreeFiveArrayCountMethod {
 
     public boolean isValidTwoThreeFiveArray(int[] nums) {

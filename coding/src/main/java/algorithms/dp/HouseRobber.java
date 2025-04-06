@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.dp;
 
 class HouseRobber {
     public int rob(int[] nums) {

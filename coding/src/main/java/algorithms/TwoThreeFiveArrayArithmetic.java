@@ -1,5 +1,9 @@
 package algorithms;
 
+/**
+ *
+ * B: O(1), A: O(n), O(n)
+ */
 public class TwoThreeFiveArrayArithmetic {
 
     public boolean isValidTwoThreeFiveArray(int[] nums) {
