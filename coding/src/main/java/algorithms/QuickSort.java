@@ -24,7 +24,7 @@ public class QuickSort {
                 right--;
             }
             if (left <= right) {
-                swap(nums, left, right);
+                swap(nums, left++, right--);
             } else {
                 break;
             }

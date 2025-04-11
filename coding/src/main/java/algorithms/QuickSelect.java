@@ -1,8 +1,10 @@
 package algorithms;
 
+import java.util.Arrays;
+
 public class QuickSelect {
 
-    public int select(int[] nums, int k) {
+    public int find(int[] nums, int k) {
         return quickSelect(nums, 0, nums.length - 1, k-1);
     }
 
@@ -12,7 +14,7 @@ public class QuickSelect {
         int pivotIdx = medianOfThree(nums, start, stop);
 
         swap(nums, pivotIdx, stop);
-
+        System.out.println(Arrays.toString(nums));
         int left = start;
         int right = stop - 1;
 
@@ -21,13 +23,15 @@ public class QuickSelect {
             while (left <= right && nums[right] >= nums[stop]) right--;
 
             if (left <= right) {
-                swap(nums, left, right);
+                swap(nums, left++, right--);
+                System.out.println(Arrays.toString(nums));
             } else {
                 break;
             }
         }
 
         swap(nums, left, stop);
+        System.out.println(Arrays.toString(nums));
 
         if (left == k) {
             return nums[left];
