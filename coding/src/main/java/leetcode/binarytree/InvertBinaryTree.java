@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 public class InvertBinaryTree {
 
     public TreeNode invertTree(TreeNode root) {

@@ -1,7 +1,7 @@
 package leetcode.BinaryTree;
 
 import leetcode.binarytree.BinaryTreeZigzagLevelOrderTraversal;
-import leetcode.binarytree.TreeNode;
+import leetcode.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

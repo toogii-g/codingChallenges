@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 public class SymmetricTree {
 
     public boolean isSymmetric(TreeNode root) {

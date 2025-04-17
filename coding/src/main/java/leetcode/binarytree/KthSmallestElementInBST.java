@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 public class KthSmallestElementInBST {
 
     public int kthSmallest(TreeNode root, int k) {

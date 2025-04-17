@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 public class FlattenBinaryTreeToLinkedList {
     TreeNode prev = null;
     public void flatten(TreeNode root) {

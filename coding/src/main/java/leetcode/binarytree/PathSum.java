@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 public class PathSum {
 
     public boolean hasPathSum(TreeNode root, int targetSum) {

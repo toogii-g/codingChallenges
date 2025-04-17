@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 public class MinimumAbsoluteDifferenceInBSTv2 {
     int min = Integer.MAX_VALUE;
     TreeNode prev=null;

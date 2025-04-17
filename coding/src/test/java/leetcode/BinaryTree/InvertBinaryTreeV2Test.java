@@ -2,7 +2,7 @@ package leetcode.BinaryTree;
 
 import leetcode.binarytree.InvertBinaryTreev2;
 import leetcode.binarytree.SameTree;
-import leetcode.binarytree.TreeNode;
+import leetcode.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNull;

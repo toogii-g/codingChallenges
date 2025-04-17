@@ -1,7 +1,7 @@
 package leetcode.BinaryTree;
 
 import leetcode.binarytree.MinimumAbsoluteDifferenceInBSTv2;
-import leetcode.binarytree.TreeNode;
+import leetcode.TreeNode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

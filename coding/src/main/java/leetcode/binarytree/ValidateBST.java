@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 public class ValidateBST {
     TreeNode prev = null;
     boolean ans = true;

@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 import java.util.HashMap;
 
 public class BTFromInorderAndPostorderTraversal {

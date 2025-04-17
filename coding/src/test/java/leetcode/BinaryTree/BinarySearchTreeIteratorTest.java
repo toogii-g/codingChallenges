@@ -1,11 +1,8 @@
 package leetcode.BinaryTree;
 
-import leetcode.binarytree.AverageOfLevelsInBinaryTree;
 import leetcode.binarytree.BinarySearchTreeIterator;
-import leetcode.binarytree.TreeNode;
+import leetcode.TreeNode;
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 

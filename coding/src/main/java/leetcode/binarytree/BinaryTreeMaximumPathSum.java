@@ -1,5 +1,7 @@
 package leetcode.binarytree;
 
+import leetcode.TreeNode;
+
 public class BinaryTreeMaximumPathSum {
     int max = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
