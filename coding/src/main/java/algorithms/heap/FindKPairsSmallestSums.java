@@ -11,7 +11,7 @@ public class FindKPairsSmallestSums {
         PriorityQueue<int[]> minHeap = new PriorityQueue<>(Comparator.comparingInt(a -> nums1[a[0]] + nums2[a[1]])
         );
         int n = Math.min(k, nums1.length);
-        for (int i = 0; i < k; i++) {
+        for (int i = 0; i < n; i++) {
             minHeap.offer(new int[]{i, 0});
         }
 
