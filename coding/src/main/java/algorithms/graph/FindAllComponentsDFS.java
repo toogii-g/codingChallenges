@@ -23,7 +23,7 @@ public class FindAllComponentsDFS {
                         visited[node] = true;
                         vertices.add(node);
 
-                        for (int k = 0; k < matrix.length; k++) {
+                        for (int k = 0; k < n; k++) {
                             if (matrix[node][k] == 1 && !visited[k]) {
                                 stack.push(k);
                             }
